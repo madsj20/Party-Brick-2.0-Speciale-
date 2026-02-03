@@ -5,7 +5,7 @@ using System.Text;
 
 public class GeminiTest : MonoBehaviour
 {
-    [SerializeField] private string apiKey = "AIzaSyARXzEMa0HbtAVACSwZjbgRPBBxRCW-px4";
+    [SerializeField] private string apiKey = "API KEY";
     [SerializeField] private string testPrompt = "Write a short poem about AI";
     
     private const string API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
